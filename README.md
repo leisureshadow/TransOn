@@ -2,13 +2,17 @@ TransOn
 ----
 Description:
 ----
-User can read the transcription of other participants speech in real time.
+User can read the transcription of other participants' speech in real time.
 
 Reference Technique:  
 ----
+
 -Android development
+
 -Socket programming
+
 -Protocol design
+
 -Speech recognition
 
 Domain Appliance:
