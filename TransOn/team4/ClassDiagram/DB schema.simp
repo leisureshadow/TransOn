@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="6.85" multi-file="no">
+  <meta>
+    <name>Project</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <management>
+    <persons>
+      <person id="Pc7ddb8c68e47475c8dbcd4a4fd3a6847">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <tasks />
+    <requirements />
+    <issues />
+    <to-dos />
+  </management>
+  <glossary />
+  <types>
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <type id="INT" tid="" name="INT" description="" nullable="false" />
+      <type id="VARCHAR" tid="" name="VARCHAR" description="" nullable="false" />
+      <type id="TIMESTAMP" tid="" name="TIMESTAMP" description="" nullable="false" />
+      <type id="?" tid="" name="?" description="" nullable="false" />
+      <type id="FLOAT" tid="" name="FLOAT" description="" nullable="false" />
+      <type id="BOOLEAN" tid="" name="BOOLEAN" description="" nullable="false" />
+    </custom-types>
+  </types>
+  <filters />
+  <items />
+  <models>
+    <model id="p438208722827623420" name="Model 1" type="model" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>11/16/2014 17:32:21</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <tagged-values />
+      <abstract-items />
+      <sub-models />
+      <diagram type="entity-relationship" id="p153773432427661521" name="EntityRelationshipDiagram1" order-index="1" show-id="false" show-name="true" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="true" show-relationship-texts="true" auto-routed-paths="false">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>11/16/2014 17:32:21</creation-date>
+          <change-date>12/19/2014 17:25:48</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <tagged-values />
+        <abstract-items>
+          <item id="di513808338543361679" cid="ENT001" type="erd-entity" name="Message" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="11/16/2014 17:32:25">
+            <stereotypes />
+            <tagged-values />
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph line-spacing="1">
+                    <p s="S1">
+                      <t />
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes>
+              <attribute uid="a65142f30d1864f68a37704484c835bae766" name="message_id" type="VARCHAR" type-id="VARCHAR" type-size="" foreign-key="false" primary-key="true" nullable="false" description="" default-value="" auto-increment="false" />
+              <attribute uid="a3e05a02fc6654db79e7d92c75e61d9ca788" name="meeting_id" type="VARCHAR" type-id="VARCHAR" type-size="" foreign-key="true" primary-key="false" nullable="false" description="" default-value="" auto-increment="false" />
+              <attribute uid="aa9aa7b074e02497380d744d97e103218788" name="speaker_id" type="VARCHAR" type-id="VARCHAR" type-size="" foreign-key="true" primary-key="false" nullable="false" description="" default-value="" auto-increment="false" />
+              <attribute uid="a467f29776f0b45b3873b0b7b73c602e5788" name="message" type="VARCHAR" type-id="VARCHAR" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false" />
+              <attribute uid="a695fc526441248c59310c58c591494fa788" name="timestamp" type="TIMESTAMP" type-id="TIMESTAMP" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false" />
+            </attributes>
+            <indexes />
+          </item>
+          <item id="di927148877882041689" cid="ENT002" type="erd-entity" name="User" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pc7ddb8c68e47475c8dbcd4a4fd3a6847" creation-date="11/16/2014 17:37:44">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes>
+              <attribute uid="a212f7e0db96b4e77852bce5722cd84b2767" name="user_id" type="VARCHAR" type-id="VARCHAR" type-size="" foreign-key="false" primary-key="true" nullable="false" description="" default-value="" auto-increment="false" />
+              <attribute uid="ac123a2490ece40ffb2b717eb8fbdedd1767" name="name" type="VARCHAR" type-id="VARCHAR" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false" />
+              <attribute uid="adbea06bfb76a40668d8454896ae5be87767" name="nick_name" type="VARCHAR" type-id="VARCHAR" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false" />
+              <attribute uid="a1c621b337f35471b8604f9b3e33efd29767" name="google_account" type="VARCHAR" type-id="VARCHAR" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false" />
+              <attribute uid="ae38cd6eea2ea4f539a25f76f16e0956a767" name="user_icon" type="?" type-id="?" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false" />
+            </attributes>
+            <indexes />
+          </item>
+          <item id="di548361285234115698" cid="REL001" type="erd-relationship" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pc7ddb8c68e47475c8dbcd4a4fd3a6847" creation-date="11/16/2014 17:39:04">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <erd-relation type="Association" multiplicity-from="1" multiplicity-to="0..*">
+              <attribute-pairs>
+                <attribute-pair from-attribute="" to-attribute="" />
+              </attribute-pairs>
+            </erd-relation>
+          </item>
+          <item id="di944087988569290560" cid="ENT003" type="erd-entity" name="Meeting" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pc7ddb8c68e47475c8dbcd4a4fd3a6847" creation-date="11/16/2014 17:39:21">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes>
+              <attribute uid="a2e87ee35a83d4ee894d6a2447656050e272" name="meeting_id" type="INT" type-id="INT" type-size="" foreign-key="false" primary-key="true" nullable="false" description="" default-value="" auto-increment="false" />
+              <attribute uid="ab6c27332280e465a8ddd69023c543ebb272" name="initiator_id" type="INT" type-id="INT" type-size="" foreign-key="true" primary-key="false" nullable="false" description="" default-value="" auto-increment="false" />
+              <attribute uid="a7def2ed6fb264b5d891560d31781a08c761" name="subject" type="VARCHAR" type-id="VARCHAR" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false" />
+              <attribute uid="a1928de66a0ae4e8c867ea215b93d10d7761" name="description" type="VARCHAR" type-id="VARCHAR" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false" />
+              <attribute uid="a08e5eed8ec7d42cdac274a8485686880761" name="location" type="VARCHAR" type-id="VARCHAR" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false" />
+              <attribute uid="ab9794a905e3a477daa9bb8a9ef02b9a7761" name="lattitude" type="FLOAT" type-id="FLOAT" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false" />
+              <attribute uid="a6dc2f3f749464ef69eb5209fda5203ef761" name="longitude" type="FLOAT" type-id="FLOAT" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false" />
+              <attribute uid="a5c77b548624d4964ba4057b06b68e928761" name="initiate_time" type="TIMESTAMP" type-id="TIMESTAMP" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false" />
+              <attribute uid="ac18384bbc2684aec94933b4143a317b7761" name="terminate_time" type="TIMESTAMP" type-id="TIMESTAMP" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false" />
+              <attribute uid="a093869b2a4104e769216a2f5a56de396761" name="restriction" type="BOOLEAN" type-id="BOOLEAN" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false" />
+              <attribute uid="adf7a3601caf4467c8263f5c80ead3a9f961" name="secret" type="BOOLEAN" type-id="BOOLEAN" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false" />
+              <attribute uid="a204f4a45e7dc434a90349cf01f4d7df46" name="terminate" type="BOOLEAN" type-id="BOOLEAN" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false" />
+            </attributes>
+            <indexes />
+          </item>
+          <item id="di378861557216251839" cid="REL002" type="erd-relationship" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pc7ddb8c68e47475c8dbcd4a4fd3a6847" creation-date="11/16/2014 17:58:29">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <erd-relation type="Association" multiplicity-from="1" multiplicity-to="0..*">
+              <attribute-pairs>
+                <attribute-pair from-attribute="a7def2ed6fb264b5d891560d31781a08c761" to-attribute="a467f29776f0b45b3873b0b7b73c602e5788" />
+              </attribute-pairs>
+            </erd-relation>
+          </item>
+          <item id="di977725836525185299" cid="REL003" type="erd-relationship" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pc7ddb8c68e47475c8dbcd4a4fd3a6847" creation-date="11/16/2014 17:58:44">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <erd-relation type="Association" multiplicity-from="1" multiplicity-to="0..*">
+              <attribute-pairs>
+                <attribute-pair from-attribute="a7def2ed6fb264b5d891560d31781a08c761" to-attribute="ab6c27332280e465a8ddd69023c543ebb272" />
+              </attribute-pairs>
+            </erd-relation>
+          </item>
+          <item id="di526500994384045957" cid="ENT004" type="erd-entity" name="User_Meeting_Relationship" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pc7ddb8c68e47475c8dbcd4a4fd3a6847" creation-date="11/16/2014 17:59:01">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes>
+              <attribute uid="a05cdbf462cd1471c9093091f897dc605143" name="id" type="INT" type-id="INT" type-size="" foreign-key="false" primary-key="true" nullable="false" description="" default-value="" auto-increment="false" />
+              <attribute uid="a9d81d7ebfa4442648779ff3351532998143" name="user_id" type="VARCHAR" type-id="VARCHAR" type-size="" foreign-key="true" primary-key="false" nullable="false" description="" default-value="" auto-increment="false" />
+              <attribute uid="a67c10bc1a118407a84d32a262f53e329143" name="meeting_id" type="INT" type-id="INT" type-size="" foreign-key="true" primary-key="false" nullable="false" description="" default-value="" auto-increment="false" />
+              <attribute uid="a8d68a3e84c8d49b8a12aff68660f4d1c147" name="type" type="INT" type-id="INT" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" auto-increment="false" />
+            </attributes>
+            <indexes />
+          </item>
+          <item id="di720809950594274069" cid="REL004" type="erd-relationship" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pc7ddb8c68e47475c8dbcd4a4fd3a6847" creation-date="11/16/2014 18:00:17">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <erd-relation type="Association" multiplicity-from="1" multiplicity-to="1">
+              <attribute-pairs>
+                <attribute-pair from-attribute="a9d81d7ebfa4442648779ff3351532998143" to-attribute="ae38cd6eea2ea4f539a25f76f16e0956a767" />
+              </attribute-pairs>
+            </erd-relation>
+          </item>
+          <item id="di837625121837691384" cid="REL005" type="erd-relationship" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pc7ddb8c68e47475c8dbcd4a4fd3a6847" creation-date="11/16/2014 18:00:21">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <erd-relation type="Association" multiplicity-from="1" multiplicity-to="1">
+              <attribute-pairs>
+                <attribute-pair from-attribute="a67c10bc1a118407a84d32a262f53e329143" to-attribute="a7def2ed6fb264b5d891560d31781a08c761" />
+              </attribute-pairs>
+            </erd-relation>
+          </item>
+          <item id="di941086946921205804" cid="CMT001" type="comment" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="12/19/2014 17:25:27">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <comment>Restriction is used as private when meeting is not terminated.</comment>
+          </item>
+          <item id="di431011009937104347" cid="CN001" type="comment-connector" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="12/19/2014 17:25:48">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+        </abstract-items>
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="di513808338543361679" iid="525bfbc1b9bf48119ddecacd66dc946c" creation-date="11/16/2014 17:32:25" order-index="0" type="entity">
+            <layout ax="1004" ay="289" awidth="266" aheight="161" x="1004" y="289" width="266" height="161" angle="0" />
+            <erd-entity show-nullability="true" />
+          </item>
+          <item id="di927148877882041689" iid="807ef278c0a24a4f8de15c4c4119efdd" creation-date="11/16/2014 17:37:44" order-index="1" type="entity">
+            <layout ax="556" ay="129" awidth="264" aheight="160" x="556" y="129" width="264" height="160" angle="0" />
+            <erd-entity show-nullability="true" />
+          </item>
+          <item id="di548361285234115698" iid="74934d37876640858d953c84e9145663" creation-date="11/16/2014 17:39:04" order-index="2" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="820" y1="256" x2="1004" y2="322" start-border-pos="0.44895601272583" end-border-pos="0.948277064732143">
+              <points>
+                <point x="820" y="256" />
+                <point x="1004" y="322" />
+              </points>
+            </layout>
+            <relation from="di927148877882041689" from-iid="807ef278c0a24a4f8de15c4c4119efdd" to="di513808338543361679" to-iid="525bfbc1b9bf48119ddecacd66dc946c" />
+          </item>
+          <item id="di944087988569290560" iid="bcf2de79775f4f229d793594a864402d" creation-date="11/16/2014 17:39:21" order-index="3" type="entity">
+            <layout ax="556" ay="427" awidth="264" aheight="222" x="556" y="427" width="264" height="222" angle="0" />
+            <erd-entity show-nullability="true" />
+          </item>
+          <item id="di378861557216251839" iid="d6a1840b251b4bb88d7740f020b8d76f" creation-date="11/16/2014 17:58:29" order-index="4" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="820" y1="489" x2="1004" y2="420" start-border-pos="0.319380923434421" end-border-pos="0.796950440969526">
+              <points>
+                <point x="820" y="489" />
+                <point x="1004" y="420" />
+              </points>
+            </layout>
+            <relation from="di944087988569290560" from-iid="bcf2de79775f4f229d793594a864402d" to="di513808338543361679" to-iid="525bfbc1b9bf48119ddecacd66dc946c" />
+          </item>
+          <item id="di977725836525185299" iid="15043ca1c16c494fbfa135e190fa1f68" creation-date="11/16/2014 17:58:44" order-index="5" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="688" y1="289" x2="688" y2="427" start-border-pos="0.625" end-border-pos="0.125">
+              <points>
+                <point x="688" y="289" />
+                <point x="688" y="427" />
+              </points>
+            </layout>
+            <relation from="di927148877882041689" from-iid="807ef278c0a24a4f8de15c4c4119efdd" to="di944087988569290560" to-iid="bcf2de79775f4f229d793594a864402d" />
+          </item>
+          <item id="di526500994384045957" iid="817aeac9ca864b43ad977cfc9200d1f1" creation-date="11/16/2014 17:59:01" order-index="6" type="entity">
+            <layout ax="178" ay="322" awidth="222" aheight="157" x="178" y="322" width="222" height="157" angle="0" />
+            <erd-entity show-nullability="true" />
+          </item>
+          <item id="di720809950594274069" iid="3864c70c650d43bb949e46a2e9717df9" creation-date="11/16/2014 18:00:17" order-index="7" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="400" y1="347" x2="556" y2="272" start-border-pos="0.289593398950662" end-border-pos="0.776268815994263">
+              <points>
+                <point x="400" y="347" />
+                <point x="556" y="272" />
+              </points>
+            </layout>
+            <relation from="di526500994384045957" from-iid="817aeac9ca864b43ad977cfc9200d1f1" to="di927148877882041689" to-iid="807ef278c0a24a4f8de15c4c4119efdd" />
+          </item>
+          <item id="di837625121837691384" iid="17667e7098984d369fca930f4c3e58ec" creation-date="11/16/2014 18:00:21" order-index="8" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="400" y1="438" x2="556" y2="492" start-border-pos="0.435335973265824" end-border-pos="0.926412324647646">
+              <points>
+                <point x="400" y="438" />
+                <point x="556" y="492" />
+              </points>
+            </layout>
+            <relation from="di526500994384045957" from-iid="817aeac9ca864b43ad977cfc9200d1f1" to="di944087988569290560" to-iid="bcf2de79775f4f229d793594a864402d" />
+          </item>
+          <item id="di941086946921205804" iid="aa90c32b5c9f410e841cf62345869efa" creation-date="12/19/2014 17:25:27" order-index="9" type="entity">
+            <layout ax="310" ay="550" awidth="140" aheight="100" x="310" y="550" width="140" height="100" angle="0" />
+          </item>
+          <item id="di431011009937104347" iid="1da87f3bcc1c453b9ba14cd84405fbb4" creation-date="12/19/2014 17:25:48" order-index="10" type="comment-connector">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" auto-path="" x1="450" y1="586" x2="556" y2="565" start-border-pos="0.339772796630859" end-border-pos="0.845077239715301">
+              <points>
+                <point x="450" y="586" />
+                <point x="556" y="565" />
+              </points>
+            </layout>
+            <relation from="di941086946921205804" from-iid="aa90c32b5c9f410e841cf62345869efa" to="di944087988569290560" to-iid="bcf2de79775f4f229d793594a864402d" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+  <documents />
+  <document-templates />
+</sim-project>

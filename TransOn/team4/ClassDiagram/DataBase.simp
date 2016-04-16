@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="7.01" multi-file="no">
+  <meta>
+    <name>Project</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type stereotype="" type="UmlClass" />
+        <value>2</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type stereotype="" type="UmlClass" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlDependency" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="AbstractElementGroup" />
+        <value>5</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>33</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.AttributeField</type>
+        <value>4</value>
+      </counter>
+    </fields>
+  </counters>
+  <management>
+    <persons>
+      <person id="P6fd3bcdc4274428a95dae414bc445f23">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <tasks />
+    <requirements />
+    <issues />
+    <to-dos />
+  </management>
+  <glossary />
+  <types>
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <type id="string" tid="" name="string" description="" nullable="false" />
+      <type id="ArrayList&lt;MeetingHistory&gt;" tid="" name="ArrayList&lt;MeetingHistory&gt;" description="" nullable="false" />
+      <type id="void" tid="" name="void" description="" nullable="false" />
+      <type id="ArrayList&lt;Message&gt;" tid="" name="ArrayList&lt;Message&gt;" description="" nullable="false" />
+      <type id="HashTable info" tid="" name="HashTable info" description="" nullable="false" />
+      <type id="int" tid="" name="int" description="" nullable="false" />
+      <type id="HashTable" tid="" name="HashTable" description="" nullable="false" />
+    </custom-types>
+  </types>
+  <filters />
+  <items />
+  <models>
+    <model id="p844665499841622608" name="Model 1" type="model" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>11/16/2014 19:43:30</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="p484406953531559549" name="ClassDiagram1" order-index="1" show-id="false" show-name="true" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="true" show-relationship-texts="true" auto-routed-paths="false">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>11/16/2014 19:43:30</creation-date>
+          <change-date>11/16/2014 19:53:11</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="di735144255427830784" cid="C001" type="class" name="DataBase" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="11/16/2014 19:46:34">
+            <stereotypes>
+              <stereotype name="static" />
+            </stereotypes>
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph line-spacing="1">
+                    <p s="S1">
+                      <t />
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations>
+              <operation id="oba3d7c9b498343cdb61a3df7ea8c807c695" cid="OP021" name="getHistory" type="ArrayList&lt;Message&gt;" type-id="ArrayList&lt;Message&gt;" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="int meeting_id" type="" type-id="" />
+                  <parameter id="" name="int num" type="" type-id="" />
+                  <parameter id="" name="int page" type="" type-id="" />
+                </parameters>
+                <source-codes />
+              </operation>
+              <operation id="oe906722580bf43c5809907d29645f3ba725" cid="OP022" name="saveMessage" type="void" type-id="void" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="int meeting_id" type="" type-id="" />
+                  <parameter id="" name="Message msg" type="" type-id="" />
+                </parameters>
+                <source-codes />
+              </operation>
+              <operation id="o66eeb8b7b6ce4a08a37d68a20b5e4144318" cid="OP023" name="createMeeting" type="int" type-id="int" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="HashTable info" type="" type-id="" />
+                </parameters>
+                <source-codes />
+              </operation>
+              <operation id="o9b7337c31a274b39a629f9794df2df39318" cid="OP024" name="getMeetingInformation" type="HashTable" type-id="HashTable" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="int meeting_id" type="" type-id="" />
+                </parameters>
+                <source-codes />
+              </operation>
+              <operation id="o1f4d977022d84f5d9664e92393e18e6b318" cid="OP025" name="updateMeetingInformation" type="void" type-id="void" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="int meeting_id" type="" type-id="" />
+                  <parameter id="" name="HashTable info" type="" type-id="" />
+                </parameters>
+                <source-codes />
+              </operation>
+              <operation id="o63c99993392d4620b9175dbcc9fff4f3318" cid="OP026" name="addUserToParticipantList" type="void" type-id="void" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="int meeting_id" type="" type-id="" />
+                  <parameter id="" name="int[] user_id_list" type="" type-id="" />
+                </parameters>
+                <source-codes />
+              </operation>
+              <operation id="odb55039957434246a87fdb8aeae05473318" cid="OP027" name="deleteUserToParticipantList" type="void" type-id="void" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="int meeting_id" type="" type-id="" />
+                  <parameter id="" name="int[] user_id_list" type="" type-id="" />
+                </parameters>
+                <source-codes />
+              </operation>
+              <operation id="o4cb57372cc954e9eacdaf0540d6d4584318" cid="OP028" name="addUserToReadableList" type="void" type-id="void" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="int meeting_id" type="" type-id="" />
+                  <parameter id="" name="int[] user_id_list" type="" type-id="" />
+                </parameters>
+                <source-codes />
+              </operation>
+              <operation id="odefc2f200f644b22bc5a19c639376b2f318" cid="OP029" name="deleteUserToReadableList" type="void" type-id="void" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="int meeting_id" type="" type-id="" />
+                  <parameter id="" name="int[] user_id_list" type="" type-id="" />
+                </parameters>
+                <source-codes />
+              </operation>
+              <operation id="of2de0b5b53d7406b9b04c7a477307afa318" cid="OP030" name="createUserInformation" type="int" type-id="int" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="HashTable info" type="" type-id="" />
+                </parameters>
+                <source-codes />
+              </operation>
+              <operation id="o38deb066d35d4670b7a6023513285b61318" cid="OP031" name="getUserInformation" type="HashTable" type-id="HashTable" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="int user_id" type="" type-id="" />
+                </parameters>
+                <source-codes />
+              </operation>
+              <operation id="o19d47ce2f82b47e59ed0cd850799ead9318" cid="OP032" name="updateUserInformation" type="void" type-id="void" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="HashTable info" type="" type-id="" />
+                </parameters>
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di919426850251490061" cid="C002" type="class" name="Message" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P6fd3bcdc4274428a95dae414bc445f23" creation-date="11/16/2014 19:48:48">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes>
+              <attribute id="a0b0dfe686041476584b572d0ecfe0f4d222" cid="AT001" name="speaker" type="string" type-id="string" visibility="private" abstract="false" virtual="false" />
+              <attribute id="aea225b48465942639c424c6346902d4d222" cid="AT002" name="message" type="string" type-id="string" visibility="private" abstract="false" virtual="false" />
+              <attribute id="a60b39556ca2e4488a042fbbfa98c038b222" cid="AT003" name="timestamp" type="string" type-id="string" visibility="private" abstract="false" virtual="false" />
+            </attributes>
+            <operations>
+              <operation id="oc02b342fb3c24a6b9f42bcd0cb44d932222" cid="OP002" name="getSpeaker" type="string" type-id="string" visibility="public" abstract="false" virtual="false" static="false">
+                <source-codes />
+              </operation>
+              <operation id="o75c2a76e4edb40e9adf168855c71bd9c222" cid="OP003" name="getMessage" type="string" type-id="string" visibility="public" abstract="false" virtual="false" static="false">
+                <source-codes />
+              </operation>
+              <operation id="o4d6fd44fda0d4e31a72762845ec33cb4222" cid="OP004" name="getTimestamp" type="string" type-id="string" visibility="public" abstract="false" virtual="false" static="false">
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di744190515730692194" cid="DEP002" type="dependency" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P6fd3bcdc4274428a95dae414bc445f23" creation-date="11/16/2014 19:53:11">
+            <stereotypes>
+              <stereotype name="use" />
+            </stereotypes>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+        </abstract-items>
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="di735144255427830784" iid="6c72cb535d244e4a9aff4978276b14ed" creation-date="11/16/2014 19:46:34" order-index="0" type="entity">
+            <layout ax="59" ay="348" awidth="490" aheight="252" x="59" y="348" width="490" height="252" angle="0" />
+            <class />
+          </item>
+          <item id="di919426850251490061" iid="e52510edd1184bd3b561726a86636aff" creation-date="11/16/2014 19:48:48" order-index="1" type="entity">
+            <layout ax="213" ay="76" awidth="191" aheight="160" x="213" y="76" width="191" height="160" angle="0" />
+            <class />
+          </item>
+          <item id="di744190515730692194" iid="86ab9fed6adf4be7bcf9e07aa8759a82" creation-date="11/16/2014 19:53:11" order-index="2" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="306" y1="348" x2="307" y2="236" start-border-pos="0.125808622399155" end-border-pos="0.626971579346981">
+              <points>
+                <point x="306" y="348" />
+                <point x="307" y="236" />
+              </points>
+            </layout>
+            <relation from="di735144255427830784" from-iid="6c72cb535d244e4a9aff4978276b14ed" to="di919426850251490061" to-iid="e52510edd1184bd3b561726a86636aff" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+  <documents />
+  <document-templates />
+</sim-project>

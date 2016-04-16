@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="7.7" multi-file="no">
+  <meta>
+    <name>Client Meeting Room Module &amp; DSP Module</name>
+    <authors>Yi-An Lin</authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type stereotype="" type="UmlClass" />
+        <value>6</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type stereotype="" type="UmlClass" />
+        <value>7</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlDependency" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="AbstractElementGroup" />
+        <value>3</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>26</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.AttributeField</type>
+        <value>11</value>
+      </counter>
+    </fields>
+  </counters>
+  <management>
+    <persons>
+      <person id="P94dbb96bd14a4efcbc13aa4a45176b15">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <tasks />
+    <requirements />
+    <issues />
+    <to-dos />
+  </management>
+  <glossary />
+  <types>
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types />
+  </types>
+  <filters />
+  <items />
+  <models>
+    <model id="p752859390891412466" name="Model 1" type="model" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author />
+        </authors>
+        <description />
+        <creation-date>11/21/2014 18:24:23</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="p600705183618500798" name="ClassDiagram1" order-index="1" show-id="false" show-name="true" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="true" show-relationship-texts="true" auto-routed-paths="false">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author />
+          </authors>
+          <description />
+          <creation-date>11/21/2014 18:24:23</creation-date>
+          <change-date>11/21/2014 18:49:20</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="di215783203113287554" cid="C001" type="class" name="MeetingController" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P94dbb96bd14a4efcbc13aa4a45176b15" creation-date="11/21/2014 18:39:16">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations>
+              <operation id="oe49004f3a54948909a57a0917625a88e242" cid="OP013" name="kick" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="participant" type="" type-id="" />
+                </parameters>
+                <source-codes />
+              </operation>
+              <operation id="o41611d6b049e414b95ada5132c474cb8250" cid="OP014" name="mute" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="participant" type="" type-id="" />
+                </parameters>
+                <source-codes />
+              </operation>
+              <operation id="oc272a12b894244cd8ee7153f7ca26f3d250" cid="OP015" name="pause" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <source-codes />
+              </operation>
+              <operation id="of3022b6aeffc4b59a875c93cd6d1fac3250" cid="OP016" name="continue" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <source-codes />
+              </operation>
+              <operation id="oc3952f568d00427cb0eccad8f4853573250" cid="OP017" name="terminate" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <source-codes />
+              </operation>
+              <operation id="o13eb8691e75e42df9d1237f863963f41250" cid="OP018" name="accept" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="participant" type="" type-id="" />
+                </parameters>
+                <source-codes />
+              </operation>
+              <operation id="o089ae42157214e488a746ee4adc7e52d250" cid="OP019" name="set_admin" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="participant" type="" type-id="" />
+                </parameters>
+                <source-codes />
+              </operation>
+              <operation id="od32eab2264d34c5191bfcf91c1fa98e1250" cid="OP020" name="cancel_admin" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="participant" type="" type-id="" />
+                </parameters>
+                <source-codes />
+              </operation>
+              <operation id="oe56d147b34774e88817fbc5b48c8da53250" cid="OP021" name="cancel_admin" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="participant" type="" type-id="" />
+                </parameters>
+                <source-codes />
+              </operation>
+              <operation id="oe50e34dfb458484eae8b4ea9af22558a250" cid="OP022" name="set_history_read_permission" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="permission" type="" type-id="" />
+                </parameters>
+                <source-codes />
+              </operation>
+              <operation id="ofa13187b0bf04c7d8bcae206e9ded78e251" cid="OP023" name="set_history_readable_user_list" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="operation" type="" type-id="" />
+                  <parameter id="" name="user" type="" type-id="" />
+                </parameters>
+                <source-codes />
+              </operation>
+              <operation id="o56e493b1cdbb4f019b668c891ee288da251" cid="OP024" name="remove_from_meeting" type="" type-id="" visibility="undefined" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="participant" type="" type-id="" />
+                </parameters>
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di800298796933203558" cid="C002" type="class" name="ConnectionController" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P94dbb96bd14a4efcbc13aa4a45176b15" creation-date="11/21/2014 18:45:58">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations />
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di710659175481664698" cid="C003" type="class" name="Administrator" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P94dbb96bd14a4efcbc13aa4a45176b15" creation-date="11/21/2014 18:46:12">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations />
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di254355078916481758" cid="C004" type="class" name="Participant" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P94dbb96bd14a4efcbc13aa4a45176b15" creation-date="11/21/2014 18:46:33">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations />
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di730476694742567458" cid="C005" type="class" name="MeetingInfo" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P94dbb96bd14a4efcbc13aa4a45176b15" creation-date="11/21/2014 18:46:51">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes>
+              <attribute id="ac8c42040a2554cc3915fd84e9a2b7863167" cid="AT001" name="subject" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false" />
+              <attribute id="a979e0a750d3d4cdf97862d6e8bd18a95171" cid="AT002" name="location" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false" />
+              <attribute id="a6501d3ba697c448694f4ef41f009cefd171" cid="AT003" name="latitude" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false" />
+              <attribute id="a40b8f0a1b4f64fbc9af3153fd1768560171" cid="AT004" name="longtitude" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false" />
+              <attribute id="a79f73607ad744b8e9f7d2b1e64f0d40a171" cid="AT005" name="time" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false" />
+              <attribute id="a3fc6df8e1a49441b8288388dae77af86171" cid="AT006" name="description" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false" />
+              <attribute id="a943393b5a1e94abab2c977e38685aedf171" cid="AT007" name="initiator" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false" />
+              <attribute id="a99408642adda45478e4e320c2ca5a728171" cid="AT008" name="permission_policy" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false" />
+              <attribute id="aff9d6f80758c403cb02776203f0db1aa171" cid="AT009" name="duration" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false" />
+              <attribute id="addabee6bb6a74726985d5c016f56f496171" cid="AT010" name="List participants" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false" />
+            </attributes>
+            <operations />
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di175974455434139978" cid="DEP001" type="dependency" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P94dbb96bd14a4efcbc13aa4a45176b15" creation-date="11/21/2014 18:48:16">
+            <stereotypes>
+              <stereotype name="use" />
+            </stereotypes>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di802031604470836497" cid="C006" type="class" name="SpeechTransformer" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P94dbb96bd14a4efcbc13aa4a45176b15" creation-date="11/21/2014 18:49:20">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations>
+              <operation id="o0e75c8c8789d488190d536c67f656a8832" cid="OP025" name="transform" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="speech" type="" type-id="" />
+                </parameters>
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+        </abstract-items>
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="di215783203113287554" iid="5648ae0d114141238eae138c214b41f1" creation-date="11/21/2014 18:39:16" order-index="0" type="entity">
+            <layout ax="362.0193" ay="194" awidth="273" aheight="326" x="362.0193" y="194" width="273" height="326" angle="0" />
+            <class />
+          </item>
+          <item id="di800298796933203558" iid="e10a10be35b34ccf8c4a2eb207db1d7b" creation-date="11/21/2014 18:45:58" order-index="1" type="entity">
+            <layout ax="775" ay="194" awidth="199" aheight="53" x="775" y="194" width="199" height="53" angle="0" />
+            <class />
+          </item>
+          <item id="di710659175481664698" iid="7045584f2250457bb8083054feb2b88e" creation-date="11/21/2014 18:46:12" order-index="2" type="entity">
+            <layout ax="792" ay="367" awidth="297" aheight="63" x="792" y="367" width="297" height="63" angle="0" />
+            <class />
+          </item>
+          <item id="di254355078916481758" iid="c1454c96deae42f0be1cf6f9c2e61e10" creation-date="11/21/2014 18:46:33" order-index="3" type="entity">
+            <layout ax="773" ay="493" awidth="334" aheight="81" x="773" y="493" width="334" height="81" angle="0" />
+            <class />
+          </item>
+          <item id="di730476694742567458" iid="c1520678b76c4bd3a9e582a5a90d855f" creation-date="11/21/2014 18:46:51" order-index="4" type="entity">
+            <layout ax="-64" ay="194" awidth="280" aheight="326" x="-64" y="194" width="280" height="326" angle="0" />
+            <class />
+          </item>
+          <item id="di175974455434139978" iid="353004edc6404f92adb498bd2194787e" creation-date="11/21/2014 18:48:16" order-index="5" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="true" name-position="10,-10" auto-path="" x1="362" y1="311" x2="216" y2="334" start-border-pos="0.90989263803681" end-border-pos="0.357745398773006">
+              <points>
+                <point x="362" y="311" />
+                <point x="216" y="334" />
+              </points>
+            </layout>
+            <relation from="di215783203113287554" from-iid="5648ae0d114141238eae138c214b41f1" to="di730476694742567458" to-iid="c1520678b76c4bd3a9e582a5a90d855f" to-field="a99408642adda45478e4e320c2ca5a728171" />
+          </item>
+          <item id="di802031604470836497" iid="1070efafe7604d9caadd44abeca20c36" creation-date="11/21/2014 18:49:20" order-index="6" type="entity">
+            <layout ax="292.5193" ay="618" awidth="412" aheight="132" x="292.5193" y="618" width="412" height="132" angle="0" />
+            <class />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+  <documents />
+  <document-templates />
+</sim-project>

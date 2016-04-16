@@ -1,0 +1,1024 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="7.7" multi-file="no">
+  <meta>
+    <name>Project</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type stereotype="" type="UmlClass" />
+        <value>9</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type stereotype="" type="UmlClass" />
+        <value>10</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="AbstractElementGroup" />
+        <value>290</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlComment" />
+        <value>11</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlCommentConnector" />
+        <value>9</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlGeneralization" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlDependency" />
+        <value>7</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlAssociation" />
+        <value>5</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>3</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>18</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.AttributeField</type>
+        <value>13</value>
+      </counter>
+    </fields>
+  </counters>
+  <management>
+    <persons>
+      <person id="Pb3714924f06d4fefaeb45dfd8d1d7ed0">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <tasks />
+    <requirements />
+    <issues />
+    <to-dos />
+  </management>
+  <glossary />
+  <types>
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <type id="URL" tid="" name="URL" description="" nullable="false" />
+      <type id="Class:di244221835640362581" tid="" name="PlusClient" description="" nullable="false" class-ref="di244221835640362581" />
+      <type id="Class:di730467510661827453" tid="" name="ProgressDialog" description="" nullable="false" class-ref="di730467510661827453" />
+      <type id="Class:di342481022420557272" tid="" name="ConnectionResult" description="" nullable="false" class-ref="di342481022420557272" />
+      <type id="AccountManager" tid="" name="AccountManager" description="" nullable="false" />
+      <type id="Account" tid="" name="Account" description="" nullable="false" />
+    </custom-types>
+  </types>
+  <filters />
+  <items>
+    <item id="di212456558110248058" cid="C001" type="class" name="GoogleSingleSignOn (MainActivity)" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pb3714924f06d4fefaeb45dfd8d1d7ed0" creation-date="12/05/2014 02:37:41">
+      <stereotypes />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <attributes>
+        <attribute id="a3a0a8463b18a47b6834117027493d4db613" cid="AT002" name="TAG" type="String" type-id="Uml.String" visibility="private" abstract="false" virtual="false" static="false" />
+        <attribute id="afa538a4b46e2487dbde14bc86570c75015" cid="AT003" name="REQUEST_CODE_RESOLVE_ERR" type="Integer" type-id="Uml.Integer" visibility="private" abstract="false" virtual="false" static="false" />
+        <attribute id="a5a1ac14bc7794b27bb81d83479e64dd950" cid="AT004" name="mConnectionProgressDialog" type="ProgressDialog" type-id="Class:di730467510661827453" visibility="private" abstract="false" virtual="false" static="false" />
+        <attribute id="a90791c1fc001420c86d2469610e238e4585" cid="AT005" name="mPlusClient" type="PlusClient" type-id="Class:di244221835640362581" visibility="private" abstract="false" virtual="false" static="false" />
+        <attribute id="a8d23c0dc1ec14a9299c957574d78be75185" cid="AT006" name="mConnectionResult" type="ConnectionResult" type-id="Class:di342481022420557272" visibility="private" abstract="false" virtual="false" static="false" />
+      </attributes>
+      <operations>
+        <operation id="o4901301f4d9549b9a6e624af5c0ae7c7910" cid="OP001" name="onCreate" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+          <parameters>
+            <parameter id="" name="Bundle savedInstanceState" type="" type-id="" />
+          </parameters>
+          <source-codes />
+        </operation>
+        <operation id="o39df887b62f64a308c78334e6c0a889d963" cid="OP004" name="onStart" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+          <source-codes />
+        </operation>
+        <operation id="o6e477170eaff4f24b87f7b88df1c43eb176" cid="OP005" name="onStop" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+          <source-codes />
+        </operation>
+        <operation id="o0992aa99bf4546cb99c3fb77148907a2624" cid="OP006" name="onConnectionFailed" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+          <parameters>
+            <parameter id="" name="ConnectionResult result" type="" type-id="" />
+          </parameters>
+          <source-codes />
+        </operation>
+        <operation id="ofc2c481d982b4d92a5c8729afabc477c848" cid="OP007" name="onActivityResult" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+          <parameters>
+            <parameter id="" name="int requestCode" type="" type-id="" />
+            <parameter id="" name="int responseCode" type="" type-id="" />
+            <parameter id="" name="Intent intent" type="" type-id="" />
+          </parameters>
+          <source-codes />
+        </operation>
+        <operation id="o76da39d10a3c40b4b86ed2ee18fdd8461" cid="OP002" name="onConnected" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+          <parameters>
+            <parameter id="" name="Bundle connectionHint" type="" type-id="" />
+          </parameters>
+          <source-codes />
+        </operation>
+        <operation id="o794ef86469d642eb91de96d688fe2a66690" cid="OP003" name="onDisconnected" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+          <source-codes />
+        </operation>
+        <operation id="o953eda65793f442681c6b9a8e5cb892156" cid="OP008" name="NewOperation8" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+          <source-codes />
+        </operation>
+      </operations>
+      <template-parameters>
+        <source-codes />
+      </template-parameters>
+    </item>
+    <item id="di874019821313570979" cid="CMT002" type="comment" name="Comment" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="12/05/2014 13:41:59">
+      <stereotypes />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <comment>Run the initial PlusClient</comment>
+    </item>
+    <item id="di959052788582192176" cid="CN001" type="comment-connector" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="12/05/2014 13:41:59">
+      <stereotypes />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di847042259352837170" cid="CN003" type="comment-connector" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="12/05/2014 14:20:31">
+      <stereotypes />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di860585164999822766" cid="CMT004" type="comment" name="Comment" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="12/05/2014 14:20:31">
+      <stereotypes />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <comment>    private static final String TAG = "ExampleActivity";
+    private static final int REQUEST_CODE_RESOLVE_ERR = 9000;
+</comment>
+    </item>
+    <item id="di422369257265950602" cid="CMT005" type="comment" name="Comment" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="12/05/2014 14:26:13">
+      <stereotypes />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <comment>    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        mPlusClient = new PlusClient.Builder(this, this, this)
+                .setVisibleActivities("http://schemas.google.com/AddActivity", "http://schemas.google.com/BuyActivity")
+                .build();
+        // Progress bar to be displayed if the connection failure is not resolved.
+        mConnectionProgressDialog = new ProgressDialog(this);
+        mConnectionProgressDialog.setMessage("Signing in...");
+    }
+</comment>
+    </item>
+    <item id="di579789393548119880" cid="CN004" type="comment-connector" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="12/05/2014 14:26:13">
+      <stereotypes />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di237613326353153937" cid="CMT006" type="comment" name="Comment" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="12/05/2014 14:27:15">
+      <stereotypes />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <comment>    @Override
+    protected void onStart() {
+        super.onStart();
+        mPlusClient.connect();
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        mPlusClient.disconnect();
+    }
+</comment>
+    </item>
+    <item id="di275462991475524492" cid="CN005" type="comment-connector" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="12/05/2014 14:27:15">
+      <stereotypes />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di716341981106096519" cid="CMT007" type="comment" name="Comment" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="12/05/2014 14:29:28">
+      <stereotypes />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <comment>    @Override
+    public void onConnectionFailed(ConnectionResult result) {
+      if (mConnectionProgressDialog.isShowing()) {
+        // The user clicked the sign-in button already. Start to resolve
+        // connection errors. Wait until onConnected() to dismiss the
+        // connection dialog.
+        if (result.hasResolution()) {
+          try {
+                   result.startResolutionForResult(this, REQUEST_CODE_RESOLVE_ERR);
+           } catch (SendIntentException e) {
+                   mPlusClient.connect();
+           }
+        }
+      }
+      // Save the result and resolve the connection failure upon a user click.
+      mConnectionResult = result;
+    }
+</comment>
+    </item>
+    <item id="di575648078192553152" cid="CN006" type="comment-connector" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="12/05/2014 14:29:28">
+      <stereotypes />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di643866777988893219" cid="CMT008" type="comment" name="Comment" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="12/05/2014 14:30:58">
+      <stereotypes />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <comment>    @Override
+    protected void onActivityResult(int requestCode, int responseCode, Intent intent) {
+        if (requestCode == REQUEST_CODE_RESOLVE_ERR &amp;&amp; responseCode == RESULT_OK) {
+            mConnectionResult = null;
+            mPlusClient.connect();
+        }
+    }
+</comment>
+    </item>
+    <item id="di337449699596352373" cid="CN007" type="comment-connector" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="12/05/2014 14:30:58">
+      <stereotypes />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di478504169764181409" cid="CMT009" type="comment" name="Comment" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="12/05/2014 14:31:34">
+      <stereotypes />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <comment>    @Override
+    public void onConnected(Bundle connectionHint) {
+        String accountName = mPlusClient.getAccountName();
+        Toast.makeText(this, accountName + " is connected.", Toast.LENGTH_LONG).show();
+    }
+
+    @Override
+    public void onDisconnected() {
+        Log.d(TAG, "disconnected");
+    }
+}</comment>
+    </item>
+    <item id="di734599583645140978" cid="CN008" type="comment-connector" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="12/05/2014 14:31:34">
+      <stereotypes />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+    <item id="di979951841744377103" cid="C001" type="class" name="GoogleSingleSignOn" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="Pb3714924f06d4fefaeb45dfd8d1d7ed0" creation-date="12/05/2014 02:37:41">
+      <stereotypes />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <attributes>
+        <attribute id="a511ebfe38a7e418a96033ad69bbe6ff7424" cid="AT008" name="accountManager" type="AccountManager" type-id="AccountManager" visibility="private" abstract="false" virtual="false" static="false" />
+        <attribute id="a45de13748e514ac2915824d1d21925ac952" cid="AT009" name="accounts" type="Account" type-id="Account" visibility="private" abstract="false" virtual="false" static="false" multiplicity="*" />
+        <attribute id="a62610c4b518d4551a804ec4005e49552256" cid="AT010" name="mConnectionProgressDialog" type="ProgressDialog" type-id="Class:di730467510661827453" visibility="private" abstract="false" virtual="false" static="false" />
+        <attribute id="af321cfb42fb848d7976d2b673a231b3e168" cid="AT011" name="mPlusClient" type="PlusClient" type-id="Class:di244221835640362581" visibility="private" abstract="false" virtual="false" static="false" />
+        <attribute id="a1514e3e8503a404c83525bc9134e2eb9823" cid="AT012" name="mConnectionResult" type="ConnectionResult" type-id="Class:di342481022420557272" visibility="private" abstract="false" virtual="false" static="false" />
+      </attributes>
+      <operations>
+        <operation id="o4901301f4d9549b9a6e624af5c0ae7c7910" cid="OP001" name="onCreate" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+          <parameters>
+            <parameter id="" name="Bundle savedInstanceState" type="" type-id="" />
+          </parameters>
+          <source-codes />
+        </operation>
+        <operation id="o39df887b62f64a308c78334e6c0a889d963" cid="OP004" name="onStart" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+          <source-codes />
+        </operation>
+        <operation id="o6e477170eaff4f24b87f7b88df1c43eb176" cid="OP005" name="onStop" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+          <source-codes />
+        </operation>
+        <operation id="o0992aa99bf4546cb99c3fb77148907a2624" cid="OP006" name="onConnectionFailed" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+          <parameters>
+            <parameter id="" name="ConnectionResult result" type="" type-id="" />
+          </parameters>
+          <source-codes />
+        </operation>
+        <operation id="ofc2c481d982b4d92a5c8729afabc477c848" cid="OP007" name="onActivityResult" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+          <parameters>
+            <parameter id="" name="int requestCode" type="" type-id="" />
+            <parameter id="" name="int responseCode" type="" type-id="" />
+            <parameter id="" name="Intent intent" type="" type-id="" />
+          </parameters>
+          <source-codes />
+        </operation>
+        <operation id="o76da39d10a3c40b4b86ed2ee18fdd8461" cid="OP002" name="onConnected" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+          <parameters>
+            <parameter id="" name="Bundle connectionHint" type="" type-id="" />
+          </parameters>
+          <source-codes />
+        </operation>
+        <operation id="o794ef86469d642eb91de96d688fe2a66690" cid="OP003" name="onDisconnected" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+          <source-codes />
+        </operation>
+        <operation id="o29de0ae43e6b4566a2eb406e780ef8bc736" cid="OP015" name="getAccounts" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+          <source-codes />
+        </operation>
+        <operation id="o593be314c4ca45a3bebe6bbf61bb0332277" cid="OP017" name="authenticate" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+          <source-codes />
+        </operation>
+        <operation id="obc10d63e76d743b098446661228763d8408" cid="OP016" name="setParticipantInformation" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+          <source-codes />
+        </operation>
+      </operations>
+      <template-parameters>
+        <source-codes />
+      </template-parameters>
+    </item>
+    <item id="di938311702164196768" cid="C005" type="class" name="PlusClient" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="12/05/2014 14:04:01">
+      <stereotypes />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <attributes />
+      <operations>
+        <operation id="o28065414d50b4faa88c1a1e31cfa0dad605" cid="OP009" name="connect" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+          <source-codes />
+        </operation>
+        <operation id="o19ef87c103774d76a00e32b4b1f6b43b93" cid="OP010" name="disconnect" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+          <source-codes />
+        </operation>
+        <operation id="o55e86991521e4357b47d746902bb81e0726" cid="OP012" name="getAccountName" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+          <source-codes />
+        </operation>
+        <operation id="o170804b076b444e9a6fa2520e5ca6f7c883" cid="OP013" name="clearDefaultAccount" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+          <source-codes />
+        </operation>
+        <operation id="ob2f3304b93804d30b6accc7e7292772b564" cid="OP014" name="revokeAccessAndDisconnect" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+          <parameters>
+            <parameter id="" name="new OnAccessRevokedListener(" type="" type-id="" />
+          </parameters>
+          <source-codes />
+        </operation>
+      </operations>
+      <template-parameters>
+        <source-codes />
+      </template-parameters>
+    </item>
+    <item id="di983725520796816624" cid="C006" type="class" name="ConnectionResult" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="12/05/2014 14:04:06">
+      <stereotypes />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <attributes />
+      <operations />
+      <template-parameters>
+        <source-codes />
+      </template-parameters>
+    </item>
+    <item id="di930434671585835199" cid="C009" type="class" name="ProgressDialog" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="12/05/2014 14:12:12">
+      <stereotypes />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <attributes>
+        <attribute id="a1fcce9e53ebb4c79bc7bd1397fc83b680" cid="AT007" name="isShowing()" type="Boolean" type-id="Uml.Boolean" visibility="private" abstract="false" virtual="false" static="false" />
+      </attributes>
+      <operations>
+        <operation id="o6c113600a7c44bfba2a95123cc006535545" cid="OP011" name="setMessage" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+          <source-codes />
+        </operation>
+      </operations>
+      <template-parameters>
+        <source-codes />
+      </template-parameters>
+    </item>
+  </items>
+  <models>
+    <model id="p965443092222074108" name="Model 1" type="model" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>12/05/2014 02:36:48</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="p142080194982903635" name="GoogleOfficalDocument" order-index="1" show-id="false" show-name="true" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="true" show-relationship-texts="true" auto-routed-paths="false">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>12/05/2014 02:37:09</creation-date>
+          <change-date>12/05/2014 14:54:18</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="di244221835640362581" cid="C005" type="class" name="PlusClient" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="12/05/2014 14:04:01">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations>
+              <operation id="o28065414d50b4faa88c1a1e31cfa0dad605" cid="OP009" name="connect" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <source-codes />
+              </operation>
+              <operation id="o19ef87c103774d76a00e32b4b1f6b43b93" cid="OP010" name="disconnect" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <source-codes />
+              </operation>
+              <operation id="o55e86991521e4357b47d746902bb81e0726" cid="OP012" name="getAccountName" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <source-codes />
+              </operation>
+              <operation id="o170804b076b444e9a6fa2520e5ca6f7c883" cid="OP013" name="clearDefaultAccount" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <source-codes />
+              </operation>
+              <operation id="ob2f3304b93804d30b6accc7e7292772b564" cid="OP014" name="revokeAccessAndDisconnect" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="new OnAccessRevokedListener(" type="" type-id="" />
+                </parameters>
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di878738371108807614" cid="C007" type="class" name="Activity" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="12/05/2014 14:07:10">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" glow-color="#FFFFFFFF" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+              <background type="vertical-linear" color="#FFD3D3D3" color2="#FFFFFFFF" />
+              <border color="#FFFF8000" width="2" dash-style="Solid" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" glow-color="#FFFFFFFF" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+                  <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+                  <border color="#FF00008B" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <attributes />
+            <operations />
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di342481022420557272" cid="C006" type="class" name="ConnectionResult" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="12/05/2014 14:04:06">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations />
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di805441153997945545" cid="REL001" type="relationship" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="12/05/2014 14:13:58">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <relation from="di878738371108807614" to="di212456558110248058">
+              <start-role id="" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="di939048251637694827" cid="DEP001" type="dependency" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="12/05/2014 14:07:44">
+            <stereotypes>
+              <stereotype name="use" />
+            </stereotypes>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di805691399648186132" cid="DEP002" type="dependency" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="12/05/2014 14:07:52">
+            <stereotypes>
+              <stereotype name="use" />
+            </stereotypes>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di983856103153480357" cid="C008" type="class" name="View.OnClickListener" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="12/05/2014 14:11:08">
+            <stereotypes>
+              <stereotype name="interface" />
+            </stereotypes>
+            <associated-diagrams />
+            <owned-items />
+            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" glow-color="#FFFFFFFF" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+              <background type="vertical-linear" color="#FFD3D3D3" color2="#FFFFFFFF" />
+              <border color="#FFFF8000" width="2" dash-style="Solid" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" glow-color="#FFFFFFFF" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+                  <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+                  <border color="#FF00008B" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <attributes />
+            <operations />
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di730467510661827453" cid="C009" type="class" name="ProgressDialog" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="12/05/2014 14:12:12">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes>
+              <attribute id="a1fcce9e53ebb4c79bc7bd1397fc83b680" cid="AT007" name="isShowing()" type="Boolean" type-id="Uml.Boolean" visibility="private" abstract="false" virtual="false" static="false" />
+            </attributes>
+            <operations>
+              <operation id="o6c113600a7c44bfba2a95123cc006535545" cid="OP011" name="setMessage" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di229165989505054497" cid="DEP003" type="dependency" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="12/05/2014 14:12:30">
+            <stereotypes>
+              <stereotype name="use" />
+            </stereotypes>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di752533610171087792" cid="REL002" type="relationship" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="12/05/2014 14:14:01">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <relation from="di983856103153480357" to="di212456558110248058">
+              <start-role id="" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="di276738776302207443" cid="C008" type="class" name="OnConnectionFailedListener " style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="12/05/2014 14:11:08">
+            <stereotypes>
+              <stereotype name="interface" />
+            </stereotypes>
+            <associated-diagrams />
+            <owned-items />
+            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" glow-color="#FFFFFFFF" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+              <background type="vertical-linear" color="#FFD3D3D3" color2="#FFFFFFFF" />
+              <border color="#FFFF8000" width="2" dash-style="Solid" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" glow-color="#FFFFFFFF" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+                  <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+                  <border color="#FF00008B" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <attributes />
+            <operations />
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di945122736532504057" cid="C008" type="class" name="ConnectionCallbacks" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="12/05/2014 14:11:08">
+            <stereotypes>
+              <stereotype name="interface" />
+            </stereotypes>
+            <associated-diagrams />
+            <owned-items />
+            <style style-name="Default" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" glow-color="#FFFFFFFF" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+              <background type="vertical-linear" color="#FFD3D3D3" color2="#FFFFFFFF" />
+              <border color="#FFFF8000" width="2" dash-style="Solid" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" glow-color="#FFFFFFFF" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+                  <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+                  <border color="#FF00008B" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <attributes />
+            <operations />
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di806344421752664497" cid="REL003" type="relationship" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="12/05/2014 14:15:05">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <relation from="di945122736532504057" to="di212456558110248058">
+              <start-role id="" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="di775971789705647170" cid="REL004" type="relationship" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="12/05/2014 14:15:09">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <relation from="di276738776302207443" to="di212456558110248058">
+              <start-role id="" name="" navigability="" association-type="association" visibility="private" />
+              <end-role id="" name="" navigability="" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="di724207531597931146" cid="CMT007" type="comment" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="11/16/2014 17:28:44">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" glow-color="#FFFFFFFF" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="center" text-vertical-alignment="center" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+              <background type="forward-diagonal" color="#FFFF0000" color2="#FFFFD5D5" />
+              <border color="#FFD50000" width="1" dash-style="Solid" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" glow-color="#FFFFFFFF" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+                  <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+                  <border color="#FF00008B" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <comment>Login
+
+findViewById(R.id.sign_in_button).setOnClickListener(this);
+@Override
+public void onClick(View view) {
+    if (view.getId() == R.id.sign_in_button &amp;&amp; !mPlusClient.isConnected()) {
+        if (mConnectionResult == null) {
+            mConnectionProgressDialog.show();
+        } else {
+            try {
+                mConnectionResult.startResolutionForResult(this, REQUEST_CODE_RESOLVE_ERR);
+            } catch (SendIntentException e) {
+                // Try connecting again.
+                mConnectionResult = null;
+                mPlusClient.connect();
+            }
+        }
+    }
+}
+@Override
+public void onConnected(Bundle connectionHint) {
+    mConnectionProgressDialog.dismiss();
+    Toast.makeText(this, "User is connected!", Toast.LENGTH_LONG).show();
+}
+</comment>
+          </item>
+          <item id="di111337078599525927" cid="CMT007" type="comment" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="11/16/2014 17:28:44">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" glow-color="#FFFFFFFF" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="center" text-vertical-alignment="center" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+              <background type="forward-diagonal" color="#FFFF0000" color2="#FFFFD5D5" />
+              <border color="#FFD50000" width="1" dash-style="Solid" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#3C000000" gloss-effect="true" wrap-name-text="true" wrap-other-text="true" padding="1" glow-color="#FFFFFFFF" name-color="#FF000000" name-font="Verdana;10;B" name-horizontal-alignment="center" name-vertical-alignment="center" part-header-color="#FF1E1E1E" part-header-font="Verdana;9;I" part-header-horizontal-alignment="center" part-header-vertical-alignment="center" text-color="#FF000000" text-font="Verdana;9;" text-horizontal-alignment="left" text-vertical-alignment="center" tagged-value-color="#FF1E1E1E" tagged-value-font="Verdana;9;I" tagged-value-horizontal-alignment="center" tagged-value-vertical-alignment="center" stereotype-color="#FF1E1E1E" stereotype-font="Verdana;9;I" stereotype-horizontal-alignment="center" stereotype-vertical-alignment="center">
+                  <background type="vertical-linear" color="#FF1E90FF" color2="#FF87CEFA" />
+                  <border color="#FF00008B" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <comment>Logout
+
+    @Override
+    public void onClick(View view) {
+        if (view.getId() == R.id.sign_out_button) {
+            if (mPlusClient.isConnected()) {
+                mPlusClient.clearDefaultAccount();
+                mPlusClient.disconnect();
+                mPlusClient.connect();
+            }
+        }
+    }
+    
+        // Prior to disconnecting, run clearDefaultAccount().
+    mPlusClient.clearDefaultAccount();
+
+    mPlusClient.revokeAccessAndDisconnect(new OnAccessRevokedListener() {
+       @Override
+       public void onAccessRevoked(ConnectionResult status) {
+           // mPlusClient is now disconnected and access has been revoked.
+           // Trigger app logic to comply with the developer policies
+       }
+    });
+
+</comment>
+          </item>
+        </abstract-items>
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="di212456558110248058" iid="01ce7b5de6724f57a764f0a482c1c65a" creation-date="12/05/2014 02:37:41" order-index="0" type="entity">
+            <layout ax="38" ay="472" awidth="447" aheight="251.5" x="38" y="472" width="447" height="251.5" angle="0" />
+            <class />
+          </item>
+          <item id="di874019821313570979" iid="3e29901299fa4b8e9ed36a8a8db283d0" creation-date="12/05/2014 13:41:59" order-index="1" type="entity">
+            <layout ax="106" ay="344.5" awidth="181" aheight="54.5" x="106" y="344.5" width="181" height="54.5" angle="0" />
+          </item>
+          <item id="di959052788582192176" iid="d6c36721a2e14c8db74c3eb16c07a0d6" creation-date="12/05/2014 13:41:59" order-index="2" type="comment-connector">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="204" y1="399" x2="225" y2="472" start-border-pos="0.614799794571176" end-border-pos="0.104699964758">
+              <points>
+                <point x="204" y="399" />
+                <point x="225" y="472" />
+              </points>
+            </layout>
+            <relation from="di874019821313570979" from-iid="3e29901299fa4b8e9ed36a8a8db283d0" to="di212456558110248058" to-iid="01ce7b5de6724f57a764f0a482c1c65a" />
+          </item>
+          <item id="di244221835640362581" iid="e041163c477349359dd13905dbe0822f" creation-date="12/05/2014 14:04:01" order-index="5" type="entity">
+            <layout ax="609.5" ay="513" awidth="425" aheight="129.5" x="609.5" y="513" width="425" height="129.5" angle="0" />
+            <class />
+          </item>
+          <item id="di342481022420557272" iid="7f236d1dbf6e497984700e5de7d8c08a" creation-date="12/05/2014 14:04:06" order-index="6" type="entity">
+            <layout ax="584.5" ay="674.5" awidth="232" aheight="49" x="584.5" y="674.5" width="232" height="49" angle="0" />
+            <class />
+          </item>
+          <item id="di878738371108807614" iid="86bc0affc10549d5af6b7321f3d3b7cb" creation-date="12/05/2014 14:07:10" order-index="7" type="entity">
+            <layout ax="-107" ay="243" awidth="236" aheight="42" x="-107" y="243" width="236" height="42" angle="0" />
+            <class />
+          </item>
+          <item id="di939048251637694827" iid="f5cdb14ac1d5430aa3a4afa7bbd12a1e" creation-date="12/05/2014 14:07:44" order-index="9" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="485" y1="598" x2="610" y2="591" start-border-pos="0.375" end-border-pos="0.850114034409689">
+              <points>
+                <point x="485" y="598" />
+                <point x="610" y="591" />
+              </points>
+            </layout>
+            <relation from="di212456558110248058" from-iid="01ce7b5de6724f57a764f0a482c1c65a" from-field="a8d23c0dc1ec14a9299c957574d78be75185" to="di244221835640362581" to-iid="e041163c477349359dd13905dbe0822f" />
+          </item>
+          <item id="di805691399648186132" iid="902ea7789d6b4aca8536adf23f9d4661" creation-date="12/05/2014 14:07:52" order-index="10" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="485" y1="649" x2="592" y2="674" start-border-pos="0.426364178211978" end-border-pos="0.00763380116429822">
+              <points>
+                <point x="485" y="649" />
+                <point x="592" y="674" />
+              </points>
+            </layout>
+            <relation from="di212456558110248058" from-iid="01ce7b5de6724f57a764f0a482c1c65a" from-field="o794ef86469d642eb91de96d688fe2a66690" to="di342481022420557272" to-iid="7f236d1dbf6e497984700e5de7d8c08a" />
+          </item>
+          <item id="di983856103153480357" iid="401e68a5ffdf41648caa92a2c1045836" creation-date="12/05/2014 14:11:08" order-index="11" type="entity">
+            <layout ax="-227" ay="312.25" awidth="191" aheight="57.5" x="-227" y="312.25" width="191" height="57.5" angle="0" />
+            <class />
+          </item>
+          <item id="di730467510661827453" iid="e18f1f945ada46b3a26f5690b52981e0" creation-date="12/05/2014 14:12:12" order-index="12" type="entity">
+            <layout ax="538.5" ay="323.5" awidth="174" aheight="86" x="538.5" y="323.5" width="174" height="86" angle="0" />
+            <class />
+          </item>
+          <item id="di229165989505054497" iid="be27f6f6204f42e68ba23d857064cf14" creation-date="12/05/2014 14:12:30" order-index="13" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="460" y1="472" x2="559" y2="410" start-border-pos="0.235844332633136" end-border-pos="0.721214820598734">
+              <points>
+                <point x="460" y="472" />
+                <point x="559" y="410" />
+              </points>
+            </layout>
+            <relation from="di212456558110248058" from-iid="01ce7b5de6724f57a764f0a482c1c65a" from-field="o953eda65793f442681c6b9a8e5cb892156" to="di730467510661827453" to-iid="e18f1f945ada46b3a26f5690b52981e0" />
+          </item>
+          <item id="di805441153997945545" iid="d5854f4be82a4db7bd754eefc8b50477" creation-date="12/05/2014 14:13:58" order-index="14" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="27" y1="285" x2="167" y2="472" start-border-pos="0.608282376143892" end-border-pos="0.0723217957771864">
+              <points>
+                <point x="27" y="285" />
+                <point x="167" y="472" />
+              </points>
+            </layout>
+            <relation from="di878738371108807614" from-iid="86bc0affc10549d5af6b7321f3d3b7cb" to="di212456558110248058" to-iid="01ce7b5de6724f57a764f0a482c1c65a" />
+            <role-positions start-role="25,15" end-role="25,-15" start-multiplicity="25,-15" end-multiplicity="25,15" />
+          </item>
+          <item id="di752533610171087792" iid="0b03f407de634585b1bc9e68e7ce5344" creation-date="12/05/2014 14:14:01" order-index="15" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="true" lock-to-fields="false" name-position="10,-10" auto-path="" x1="-75" y1="370" x2="133" y2="472" start-border-pos="0.55151672762726" end-border-pos="0.0529850746268657">
+              <points>
+                <point x="-75" y="370" />
+                <point x="133" y="472" />
+              </points>
+            </layout>
+            <relation from="di983856103153480357" from-iid="401e68a5ffdf41648caa92a2c1045836" to="di212456558110248058" to-iid="01ce7b5de6724f57a764f0a482c1c65a" />
+            <role-positions start-role="25,15" end-role="25,-15" start-multiplicity="24.99999,-15.00001" end-multiplicity="25,15" />
+          </item>
+          <item id="di276738776302207443" iid="7a1f3e2a075b400ba22ffc3b9682b694" creation-date="12/05/2014 14:11:08" order-index="11" type="entity">
+            <layout ax="-248" ay="472" awidth="233" aheight="62" x="-248" y="472" width="233" height="62" angle="0" />
+            <class />
+          </item>
+          <item id="di945122736532504057" iid="c412e9fa155b4cf29da1f1807b069335" creation-date="12/05/2014 14:11:08" order-index="11" type="entity">
+            <layout ax="-193.5" ay="399" awidth="176" aheight="48" x="-193.5" y="399" width="176" height="48" angle="0" />
+            <class />
+          </item>
+          <item id="di806344421752664497" iid="a25c101fecac4fc191b752db509792f0" creation-date="12/05/2014 14:15:05" order-index="16" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="-56" y1="447" x2="38" y2="491" start-border-pos="0.554021916606209" end-border-pos="0.980637901108971">
+              <points>
+                <point x="-56" y="447" />
+                <point x="38" y="491" />
+              </points>
+            </layout>
+            <relation from="di945122736532504057" from-iid="c412e9fa155b4cf29da1f1807b069335" to="di212456558110248058" to-iid="01ce7b5de6724f57a764f0a482c1c65a" />
+            <role-positions start-role="25,15" end-role="25,-15" start-multiplicity="25,-15" end-multiplicity="25,15" />
+          </item>
+          <item id="di775971789705647170" iid="ecae001c712f4d8bbe4a00ded7d801b4" creation-date="12/05/2014 14:15:09" order-index="17" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="-15" y1="531" x2="38" y2="544" start-border-pos="0.48875254969443" end-border-pos="0.928439494866737">
+              <points>
+                <point x="-15" y="531" />
+                <point x="38" y="544" />
+              </points>
+            </layout>
+            <relation from="di276738776302207443" from-iid="7a1f3e2a075b400ba22ffc3b9682b694" to="di212456558110248058" to-iid="01ce7b5de6724f57a764f0a482c1c65a" />
+            <role-positions start-role="25,15" end-role="25,-15" start-multiplicity="25,-15" end-multiplicity="25,15" />
+          </item>
+          <item id="di860585164999822766" iid="50fac640b7d04e4f83993f93e488ca73" creation-date="12/05/2014 14:20:31" order-index="18" type="entity">
+            <layout ax="-480.5" ay="562.5" awidth="425.5" aheight="62" x="-480.5" y="562.5" width="425.5" height="62" angle="0" />
+          </item>
+          <item id="di847042259352837170" iid="c870afa87801444daf8cde791427d0ac" creation-date="12/05/2014 14:20:31" order-index="19" type="comment-connector">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="-55" y1="596" x2="38" y2="596" start-border-pos="0.383498161069809" end-border-pos="0.876431959997826">
+              <points>
+                <point x="-55" y="596" />
+                <point x="38" y="596" />
+              </points>
+            </layout>
+            <relation from="di860585164999822766" from-iid="50fac640b7d04e4f83993f93e488ca73" to="di212456558110248058" to-iid="01ce7b5de6724f57a764f0a482c1c65a" />
+          </item>
+          <item id="di422369257265950602" iid="ff6d3bc299c64433b0f15d7dc7339949" creation-date="12/05/2014 14:26:13" order-index="20" type="entity">
+            <layout ax="-788.5" ay="632" awidth="507.5" aheight="171" x="-788.5" y="632" width="507.5" height="171" angle="0" />
+          </item>
+          <item id="di579789393548119880" iid="65a9d033092f4b8dbf4d9ee3f1bc90a6" creation-date="12/05/2014 14:26:13" order-index="21" type="comment-connector">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="-281" y1="680" x2="38" y2="632" start-border-pos="0.319819578650402" end-border-pos="0.841226141685046">
+              <points>
+                <point x="-281" y="680" />
+                <point x="38" y="632" />
+              </points>
+            </layout>
+            <relation from="di422369257265950602" from-iid="ff6d3bc299c64433b0f15d7dc7339949" to="di212456558110248058" to-iid="01ce7b5de6724f57a764f0a482c1c65a" />
+          </item>
+          <item id="di237613326353153937" iid="82918e06db9f40599278cfd0af65486c" creation-date="12/05/2014 14:27:15" order-index="22" type="entity">
+            <layout ax="-783.5" ay="803" awidth="303" aheight="189" x="-783.5" y="803" width="303" height="189" angle="0" />
+          </item>
+          <item id="di275462991475524492" iid="99a4c085c3754190806163e176ab291b" creation-date="12/05/2014 14:27:15" order-index="23" type="comment-connector">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="-480" y1="847" x2="38" y2="673" start-border-pos="0.308192177424355" end-border-pos="0.800032022222136">
+              <points>
+                <point x="-480" y="847" />
+                <point x="38" y="673" />
+              </points>
+            </layout>
+            <relation from="di237613326353153937" from-iid="82918e06db9f40599278cfd0af65486c" to="di212456558110248058" to-iid="01ce7b5de6724f57a764f0a482c1c65a" />
+          </item>
+          <item id="di716341981106096519" iid="bf8220210a914e5bb146b609858e6e1b" creation-date="12/05/2014 14:29:28" order-index="24" type="entity">
+            <layout ax="-475" ay="803" awidth="513" aheight="288" x="-475" y="803" width="513" height="288" angle="0" />
+          </item>
+          <item id="di575648078192553152" iid="cfa93b9485be47fd931db0076b1cd540" creation-date="12/05/2014 14:29:28" order-index="25" type="comment-connector">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="-20" y1="803" x2="90" y2="724" start-border-pos="0.221760027589854" end-border-pos="0.720872354187421">
+              <points>
+                <point x="-20" y="803" />
+                <point x="90" y="724" />
+              </points>
+            </layout>
+            <relation from="di716341981106096519" from-iid="bf8220210a914e5bb146b609858e6e1b" to="di212456558110248058" to-iid="01ce7b5de6724f57a764f0a482c1c65a" />
+          </item>
+          <item id="di643866777988893219" iid="67db96d7fcbd4641816360e939f685d2" creation-date="12/05/2014 14:30:58" order-index="26" type="entity">
+            <layout ax="38" ay="790" awidth="630.5" aheight="98" x="38" y="790" width="630.5" height="98" angle="0" />
+          </item>
+          <item id="di337449699596352373" iid="7ec015e4be06434db74fdb6db156108c" creation-date="12/05/2014 14:30:58" order-index="27" type="comment-connector">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="334" y1="790" x2="309" y2="724" start-border-pos="0.117564601429297" end-border-pos="0.598322618727716">
+              <points>
+                <point x="334" y="790" />
+                <point x="309" y="724" />
+              </points>
+            </layout>
+            <relation from="di643866777988893219" from-iid="67db96d7fcbd4641816360e939f685d2" to="di212456558110248058" to-iid="01ce7b5de6724f57a764f0a482c1c65a" />
+          </item>
+          <item id="di478504169764181409" iid="b8c12b73e06b4800b0f1b6f816fdb2f2" creation-date="12/05/2014 14:31:34" order-index="28" type="entity">
+            <layout ax="690.5" ay="774.5" awidth="402" aheight="202" x="690.5" y="774.5" width="402" height="202" angle="0" />
+          </item>
+          <item id="di734599583645140978" iid="24ccba66df6d430097d535a5f83614e5" creation-date="12/05/2014 14:31:34" order-index="29" type="comment-connector">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="690" y1="787" x2="485" y2="696" start-border-pos="0.98469868272838" end-border-pos="0.473064809385872">
+              <points>
+                <point x="690" y="787" />
+                <point x="485" y="696" />
+              </points>
+            </layout>
+            <relation from="di478504169764181409" from-iid="b8c12b73e06b4800b0f1b6f816fdb2f2" to="di212456558110248058" to-iid="01ce7b5de6724f57a764f0a482c1c65a" />
+          </item>
+          <item id="di724207531597931146" iid="a22704568fdb48e89e2162113da34f8d" creation-date="11/16/2014 17:28:44" order-index="23" type="entity">
+            <layout ax="731.5" ay="-80.5" awidth="759.5" aheight="365.5" x="731.5" y="-80.5" width="759.5" height="365.5" angle="0" />
+          </item>
+          <item id="di111337078599525927" iid="29b7118fc3054604bb792133245170bf" creation-date="11/16/2014 17:28:44" order-index="23" type="entity">
+            <layout ax="1055.5" ay="309.25" awidth="516.5" aheight="387.5" x="1055.5" y="309.25" width="516.5" height="387.5" angle="0" />
+          </item>
+        </layer>
+      </diagram>
+      <diagram type="uml-class" id="p755697111247592456" name="GoogleServerSide" order-index="2" overview-order-index="0" show-id="false" show-name="true" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="true" show-relationship-texts="true" auto-routed-paths="false">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>12/05/2014 14:59:10</creation-date>
+          <change-date>12/05/2014 15:08:13</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="di990663727959848375" cid="DEP006" type="dependency" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="12/05/2014 15:08:13">
+            <stereotypes>
+              <stereotype name="use" />
+            </stereotypes>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di222126412698284532" cid="DEP005" type="dependency" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="12/05/2014 15:08:11">
+            <stereotypes>
+              <stereotype name="use" />
+            </stereotypes>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di199521045570030084" cid="DEP004" type="dependency" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="12/05/2014 15:08:08">
+            <stereotypes>
+              <stereotype name="use" />
+            </stereotypes>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+        </abstract-items>
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="di979951841744377103" iid="45629eb3bba64dc5acc8151eb977e428" creation-date="12/05/2014 02:37:41" order-index="0" type="entity">
+            <layout ax="50" ay="332" awidth="465" aheight="297.5" x="50" y="332" width="465" height="297.5" angle="0" />
+            <class />
+          </item>
+          <item id="di938311702164196768" iid="913652af887946c8ab82ecc98cb2dc1b" creation-date="12/05/2014 14:04:01" order-index="5" type="entity">
+            <layout ax="643.5" ay="443" awidth="425" aheight="129.5" x="643.5" y="443" width="425" height="129.5" angle="0" />
+            <class />
+          </item>
+          <item id="di983725520796816624" iid="8da0f6d9bdc3400e8e26277e4f88547e" creation-date="12/05/2014 14:04:06" order-index="6" type="entity">
+            <layout ax="666.5" ay="715.5" awidth="232" aheight="49" x="666.5" y="715.5" width="232" height="49" angle="0" />
+            <class />
+          </item>
+          <item id="di930434671585835199" iid="a37c3269c3be479eab2abcab0356dcb5" creation-date="12/05/2014 14:12:12" order-index="12" type="entity">
+            <layout ax="695.5" ay="246" awidth="174" aheight="86" x="695.5" y="246" width="174" height="86" angle="0" />
+            <class />
+          </item>
+          <item id="di199521045570030084" iid="0c11f3c258d44297a35d11d5bb6cfaca" creation-date="12/05/2014 15:08:08" order-index="13" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="false" lock-to-fields="true" name-position="10,-10" auto-path="" x1="515" y1="417" x2="696" y2="306" start-border-pos="0.321428571428571" end-border-pos="0.825581395348837">
+              <points>
+                <point x="515" y="417" />
+                <point x="696" y="306" />
+              </points>
+            </layout>
+            <relation from="di979951841744377103" from-iid="45629eb3bba64dc5acc8151eb977e428" from-field="af321cfb42fb848d7976d2b673a231b3e168" to="di930434671585835199" to-iid="a37c3269c3be479eab2abcab0356dcb5" to-field="o6c113600a7c44bfba2a95123cc006535545" />
+          </item>
+          <item id="di222126412698284532" iid="30cf29790f484b869f3b4ae157277109" creation-date="12/05/2014 15:08:11" order-index="14" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="true" name-position="10,-10" auto-path="" x1="515" y1="537" x2="644" y2="519" start-border-pos="0.422268907563025" end-border-pos="0.853281853281853">
+              <points>
+                <point x="515" y="537" />
+                <point x="644" y="519" />
+              </points>
+            </layout>
+            <relation from="di979951841744377103" from-iid="45629eb3bba64dc5acc8151eb977e428" from-field="o76da39d10a3c40b4b86ed2ee18fdd8461" to="di938311702164196768" to-iid="913652af887946c8ab82ecc98cb2dc1b" to-field="o55e86991521e4357b47d746902bb81e0726" />
+          </item>
+          <item id="di990663727959848375" iid="b3d5257fccc34349a1ee7dae238bb30b" creation-date="12/05/2014 15:08:13" order-index="15" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="515" y1="602" x2="736" y2="716" start-border-pos="0.476633588005515" end-border-pos="0.0745344490840517">
+              <points>
+                <point x="515" y="602" />
+                <point x="736" y="716" />
+              </points>
+            </layout>
+            <relation from="di979951841744377103" from-iid="45629eb3bba64dc5acc8151eb977e428" from-field="o593be314c4ca45a3bebe6bbf61bb0332277" to="di983725520796816624" to-iid="8da0f6d9bdc3400e8e26277e4f88547e" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+  <documents />
+  <document-templates />
+</sim-project>
