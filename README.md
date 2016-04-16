@@ -15,7 +15,7 @@ Reference Technique:
 
 -Speech recognition
 
-Domain Appliance:
+Domain Application:
 ----
 Hearing-impaired support
 
