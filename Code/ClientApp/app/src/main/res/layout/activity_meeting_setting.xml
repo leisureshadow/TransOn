@@ -1,0 +1,130 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.ntu.transon.activities.MeetingSettingActivity"
+    android:focusableInTouchMode="true"
+    android:descendantFocusability="beforeDescendants"
+    android:clickable="true"
+    android:focusable="true"
+    android:id="@+id/meeting_setting_layout"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:focusable="true">
+
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/row_edittext"
+            android:id="@+id/meeting_id" />
+
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/row_edittext"
+            android:id="@+id/meeting_subject" />
+
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/row_edittext"
+            android:id="@+id/meeting_location"/>
+
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/row_edittext"
+            android:id="@+id/meeting_latitude"/>
+
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/row_edittext"
+            android:id="@+id/meeting_longtitude"/>
+
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/row_edittext"
+            android:id="@+id/meeting_start_time"/>
+
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/row_edittext"
+            android:id="@+id/meeting_end_time"/>
+
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/row_edittext"
+            android:id="@+id/meeting_description"/>
+
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/row_edittext"
+            android:id="@+id/meeting_initiator"/>
+
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/row_switch"
+            android:id="@+id/meeting_private" />
+
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/row_switch"
+            android:id="@+id/meeting_secret" />
+
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/row_listpopup"
+            android:id="@+id/meeting_participant_list"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp" />
+
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/row_listpopup"
+            android:id="@+id/meeting_administrator_list"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp" />
+
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/row_listpopup"
+            android:id="@+id/meeting_history_readable_list"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp" />
+
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            layout="@layout/row_listpopup"
+            android:id="@+id/meeting_blacklist"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/update_button"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/selected_icon"
+            android:background="@color/background_material_light"
+            android:adjustViewBounds="false" />
+
+    </LinearLayout>
+
+</ScrollView>

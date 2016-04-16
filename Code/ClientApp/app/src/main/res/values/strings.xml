@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TransOn</string>
+    <string name="title_activity_meeting_setting">MeetingSettingActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_meeting_room">MeetingRoom</string>
+    <string name="title_activity_meeting_control">MeetingControl</string>
+    <string name="mute_myself">Mute</string>
+    <string name="meeting_detail">MeetingDetail</string>
+    <string name="meeting_control">Control</string>
+    <string name="title_activity_history">HistoryRecord</string>
+    <string name="title_activity_lobby">TransOn Lobby</string>
+    <string name="title_activity_history_search">HistorySearch</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_dialog">Meeting ID ?</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="user_accept">Accept</string>
+    <string name="user_kick">Kick</string>
+    <string name="meeting_pause">Pause</string>
+    <string name="meeting_terminate">Terminate</string>
+    <string name="history_detail">HistoryDetail</string>
+    <string name="title_activity_color">設定顏色</string>
+    <string name="title">Subject</string>
+    <string name="enter_title">輸入主題</string>
+    <string name="content">Description</string>
+    <string name="enter_content">輸入描述</string>
+    <string name="location">Location</string>
+    <string name="enter_location">輸入位置</string>
+    <string name="perssion">Perssion</string>
+    <string name="enter_perssion">輸入權限</string>
+    <string name="about">TransOn</string>
+    <string name="delete">刪除</string>
+    <string name="delete_item">確定要刪除 %1$d 個項目？</string>
+    <string name="title_activity_meeting_initiate">Initiate</string>
+
+</resources>

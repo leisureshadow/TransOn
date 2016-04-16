@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ntu.transon.activities.MeetingRoomActivity">
+
+
+    <item android:id="@+id/muteMyself"
+        android:icon="@drawable/ic_action_mic_muted"
+        android:title="@string/mute_myself"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/meetingSetting"
+        android:icon="@drawable/ic_action_about"
+        android:title="@string/meeting_detail"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/meetingControl"
+        android:icon="@drawable/ic_action_settings"
+        android:title="@string/meeting_control"
+        app:showAsAction="ifRoom">
+
+    </item>
+
+</menu>

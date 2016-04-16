@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:key="pref_key_meeting_name"
+        android:summary="Meeting name"
+        android:title="Meeting name" />
+    <SwitchPreference
+        android:key="pref_key_meeting_private"
+        android:summaryOn="Anyone want to participate in need to be permitted by administrator."
+        android:summaryOff="Anyone want to participate in no need of administrator's permission."
+        android:title="Private meeting"
+        android:switchTextOn="Private"
+        android:switchTextOff="Public" />
+    <SwitchPreference
+        android:key="pref_key_meeting_secret"
+        android:summaryOn="This meeting will not display on meeting search list."
+        android:summaryOff="This meeting will display on meeting search list."
+        android:title="Secret meeting"
+        android:switchTextOn="Secret"
+        android:switchTextOff="Public" />
+</PreferenceScreen>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference
+        android:key="pref_key_history_restricted"
+        android:summaryOn="Anyone want to view history need to be permitted by administrator."
+        android:summaryOff="Anyone want to view history no need of administrator's permission."
+        android:title="Restricted history"
+        android:switchTextOn="Restricted"
+        android:switchTextOff="Non restricted" />
+</PreferenceScreen>
