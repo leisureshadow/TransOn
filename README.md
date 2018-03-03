@@ -4,7 +4,11 @@ Description:
 ----
 User can read the transcription of other participants' speech in real time.
 
-Reference Technique:  
+Domain Application:
+----
+Hearing-impaired support
+
+Related Techniques:  
 ----
 
 -Android development
@@ -15,29 +19,12 @@ Reference Technique:
 
 -Speech recognition
 
-Domain Application:
-----
-Hearing-impaired support
-
-
-Hint:
+Other:
 -----
--There is a Project Execution Plan in the [PEP](./PEP/), which includes Life Cycle and Responsibility, Milestone, Resource Analysis and Risk Management.
+-There is a Project Execution Plan in the [PEP](./PEP/), which includes the Life Cycle and Responsibility, Milestone, Resource Analysis and Risk Management.
 
--You can see the requirements and System Architecture in the [SRS](./SRS/). It also includes Use Case Diagram and Traceability Matrix. 
+-You can see the requirements and the System Architecture in the [SRS](./SRS/). It also includes the Use Case Diagram and Traceability Matrix. 
 
--All class diagrams in the [ClassDiagram](./ClassDiagram/) should be open by "software ideas modeler".(Download link is here: [Software Ideas Modeler](https://www.softwareideas.net/))
-
-Feature:
------
-I design a connection infrustructure with the following features:
-
--Reducing the resources usage of connection maintenance.
-
--Decoupling the responsibility of data received and data handled.
-
--Easy to extend data protocols and data handler.
-
--Reducing the responsibility of middleman between UI and data model.
+-All class diagrams in the [ClassDiagram](./ClassDiagram/) can be opened by "software ideas modeler".(Download link is here: [Software Ideas Modeler](https://www.softwareideas.net/))
 
 	
